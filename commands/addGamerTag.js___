@@ -1,0 +1,15 @@
+const {
+    SlashCommandBuilder
+} = require('@discordjs/builders');
+
+module.exports = {
+    data: new SlashCommandBuilder()
+        .setName('add gamer tag')
+        .setDescription('Adds your gamer tag to the database'),
+    async execute(interaction) {
+        // await interaction.reply('Pong!');
+        // await interaction.followUp({
+        //     content: 'Pong again!'
+        // });
+    },
+};

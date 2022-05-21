@@ -1,0 +1,34 @@
+{
+  "name": "game-monitor",
+  "version": "0.1.0",
+  "description": "A discord bot which is able to view your Apex Legends rank, send messages once you up or downgrade and give you the right badge depending on your rank",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "game-monitor"
+  },
+  "keywords": [
+    "Apex",
+    "Legends",
+    "discord",
+    "rank"
+  ],
+  "author": "Jeffrey Ullers",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "axios": "^0.26.1",
+    "cron": "^1.8.2",
+    "discord": "^0.8.2",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.3.3",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.16"
+  }
+}
